@@ -16,6 +16,9 @@ SNIPPETS = [
         "privacy_killer/google_tag_manager_body.html",
     ),
     (r"^UA-", "privacy_killer/google_analytics_head.html", None),
+
+    # FBQ- is only used as identificator and does not appear inside markup
+    (r"^FBQ-", "privacy_killer/facebook_pixel_head.html", None),
 ]
 
 
@@ -40,3 +43,5 @@ def privacy_killer_head():
 @register.simple_tag
 def privacy_killer_body():
     return _snippets(2)
+
+
