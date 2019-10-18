@@ -43,5 +43,3 @@ def privacy_killer_head():
 @register.simple_tag
 def privacy_killer_body():
     return _snippets(2)
-
-
