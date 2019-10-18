@@ -11,32 +11,25 @@ register = template.Library()
 
 SNIPPETS = [
     (
-        r'^GTM-',
-        'privacy_killer/google_tag_manager_head.html',
-        'privacy_killer/google_tag_manager_body.html',
+        r"^GTM-",
+        "privacy_killer/google_tag_manager_head.html",
+        "privacy_killer/google_tag_manager_body.html",
     ),
-    (
-        r'^UA-',
-        'privacy_killer/google_analytics_head.html',
-        None,
-    ),
+    (r"^UA-", "privacy_killer/google_analytics_head.html", None),
 ]
 
 
 def _snippets(index):
     parts = []
-    for id in getattr(settings, 'PRIVACY_KILLER_IDS', ()):
+    for id in getattr(settings, "PRIVACY_KILLER_IDS", ()):
         for snippet in SNIPPETS:
             if re.search(snippet[0], id) and snippet[index]:
-                parts.append(render_to_string(
-                    snippet[index],
-                    {'id': id},
-                ))
+                parts.append(render_to_string(snippet[index], {"id": id}))
                 break
         else:
             # TODO Emit a warning.
             pass
-    return mark_safe(''.join(parts))
+    return mark_safe("".join(parts))
 
 
 @register.simple_tag
