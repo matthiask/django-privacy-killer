@@ -4,6 +4,9 @@ Change log
 `Next version`_
 ~~~~~~~~~~~~~~~
 
+`0.3`_ (2019-10-21)
+~~~~~~~~~~~~~~~~~~~
+
 - Added support for the Facebook tracking pixel.
 
 `0.2`_ (2019-06-12)
@@ -23,4 +26,5 @@ Change log
 
 .. _0.1: https://github.com/matthiask/django-privacy-killer/commit/89bb93c5cdba
 .. _0.2: https://github.com/matthiask/django-privacy-killer/compare/0.1...0.2
-.. _Next version: https://github.com/matthiask/django-privacy-killer/compare/0.2...master
+.. _0.3: https://github.com/matthiask/django-privacy-killer/compare/0.2...0.3
+.. _Next version: https://github.com/matthiask/django-privacy-killer/compare/0.3...master
