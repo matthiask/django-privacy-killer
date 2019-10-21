@@ -16,6 +16,8 @@ SNIPPETS = [
         "privacy_killer/google_tag_manager_body.html",
     ),
     (r"^UA-", "privacy_killer/google_analytics_head.html", None),
+    # FBQ- is only used as identificator and does not appear inside markup
+    (r"^FBQ-", "privacy_killer/facebook_pixel_head.html", None),
 ]
 
 

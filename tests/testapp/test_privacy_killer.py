@@ -26,3 +26,10 @@ class Analytics(TestCase):
     def test_tag(self):
         self.assertIn("<!-- Google Analytics -->\n<script>", privacy_killer_head())
         self.assertEqual(privacy_killer_body(), "")
+
+
+@override_settings(PRIVACY_KILLER_IDS=["FBQ-bla"])
+class Facebook(TestCase):
+    def test_tag(self):
+        self.assertIn("<!-- Facebook Pixel Code -->\n<script>", privacy_killer_head())
+        self.assertEqual(privacy_killer_body(), "")
