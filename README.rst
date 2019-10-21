@@ -34,5 +34,14 @@ Usage variant 2
 Do not use this module, and also do not use any trackers at all.
 
 
+Supported trackers
+==================
+
+- Google Tag Manager (``GTM-****``)
+- Google Universal Analytics (``UA-****``)
+- Facebook Pixel (Prefix the ``****`` code with ``FBQ-`` when specifying
+  ``PRIVACY_KILLER_IDS``)
+
+
 - `Documentation <https://django-privacy-killer.readthedocs.io>`_
 - `Github <https://github.com/matthiask/django-privacy-killer/>`_

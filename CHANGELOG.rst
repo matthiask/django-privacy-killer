@@ -4,6 +4,8 @@ Change log
 `Next version`_
 ~~~~~~~~~~~~~~~
 
+- Added support for the Facebook tracking pixel.
+
 `0.2`_ (2019-06-12)
 ~~~~~~~~~~~~~~~~~~~
 

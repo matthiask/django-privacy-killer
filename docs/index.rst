@@ -29,4 +29,13 @@ Usage variant 2
 Do not use this module, and also do not use any trackers at all.
 
 
+Supported trackers
+==================
+
+- Google Tag Manager (``GTM-****``)
+- Google Universal Analytics (``UA-****``)
+- Facebook Pixel (Prefix the ``****`` code with ``FBQ-`` when specifying
+  ``PRIVACY_KILLER_IDS``)
+
+
 .. include:: ../CHANGELOG.rst
