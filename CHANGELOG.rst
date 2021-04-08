@@ -4,10 +4,16 @@ Change log
 `Next version`_
 ~~~~~~~~~~~~~~~
 
+- Renamed the main branch to main.
+- Switched to a declarative setup.
+- Switched to GitHub actions.
+
+
 `0.3`_ (2019-10-21)
 ~~~~~~~~~~~~~~~~~~~
 
 - Added support for the Facebook tracking pixel.
+
 
 `0.2`_ (2019-06-12)
 ~~~~~~~~~~~~~~~~~~~
