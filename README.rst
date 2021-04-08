@@ -2,8 +2,8 @@
 django-privacy-killer - Template tags for including tracker codes
 =================================================================
 
-.. image:: https://github.com/matthiask/django-translated-fields/workflows/Tests/badge.svg
-    :target: https://github.com/matthiask/django-translated-fields/
+.. image:: https://github.com/matthiask/django-privacy-killer/actions/workflows/tests.yml/badge.svg
+    :target: https://github.com/matthiask/django-privacy-killer/
     :alt: CI Status
 
 .. image:: https://readthedocs.org/projects/django-privacy-killer/badge/?version=latest
