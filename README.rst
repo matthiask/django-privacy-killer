@@ -1,5 +1,5 @@
-**THIS PROJECT ISN'T MAINTAINED ANYMORE. YOU SHOULD USE BETTER, MORE PRIVACY-PRESERVING OPTIONS
-SUCH AS `feincms3-cookiecontrol <https://github.com/feinheit/feincms3-cookiecontrol>`__.**
+**THIS PROJECT ISN'T MAINTAINED ANYMORE. YOU SHOULD USE MORE PRIVACY-PRESERVING OPTIONS
+SUCH AS https://github.com/feinheit/feincms3-cookiecontrol**
 
 
 =================================================================
