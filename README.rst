@@ -1,3 +1,7 @@
+**THIS PROJECT ISN'T MAINTAINED ANYMORE. YOU SHOULD USE BETTER, MORE PRIVACY-PRESERVING OPTIONS
+SUCH AS `feincms3-cookiecontrol <https://github.com/feinheit/feincms3-cookiecontrol>`__.**
+
+
 =================================================================
 django-privacy-killer - Template tags for including tracker codes
 =================================================================
